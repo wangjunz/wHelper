@@ -1,0 +1,7 @@
+{
+  "name": "EncourWord",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

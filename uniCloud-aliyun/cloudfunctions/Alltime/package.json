@@ -1,0 +1,7 @@
+{
+  "name": "Alltime",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

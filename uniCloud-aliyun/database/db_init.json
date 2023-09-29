@@ -1,0 +1,306 @@
+{
+    "Consume": {
+        "data": [
+            {
+                "_id": "6504105086206658e9b6cf47",
+                "data": [
+                    {
+                        "name": "食堂用餐",
+                        "data": [
+                            10,
+                            15,
+                            35,
+                            33,
+                            31,
+                            24
+                        ]
+                    },
+                    {
+                        "name": "交通出行",
+                        "data": [
+                            15,
+                            20,
+                            35,
+                            33,
+                            11,
+                            29
+                        ]
+                    }
+                ]
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+    "Cost": {
+        "data": [
+            {
+                "_id": "64fed7267ad52ddc64871584",
+                "total": 1790,
+                "data": [
+                    {
+                        "name": "网络购物",
+                        "value": 230
+                    },
+                    {
+                        "name": "食堂用餐",
+                        "value": 920
+                    },
+                    {
+                        "name": "电费网费",
+                        "value": 440
+                    },
+                    {
+                        "name": "交通出行",
+                        "value": 200
+                    }
+                ],
+                "advice": "注重财务规划，避免过度消费。例如，可以开设一个储蓄账户，定期存钱以应对意外支出；或者尝试投资，提高资金的收益。在消费方面，可以选择购买高质量的用品，如电脑、手机等，但注意不要追求奢侈。在休闲活动方面，可以选择参加付费的校内活动，如社团、讲座等，或利用学校设施进行运动和休闲。此外，可以尝试兼职工作，增加收入来源，同时积累工作经验。总之，注重规划和理财，提高生活质量，为未来发展奠定基础。",
+                "sevenday": [
+                    50,
+                    40,
+                    60,
+                    56,
+                    72,
+                    63,
+                    59
+                ],
+                "meal": [
+                    35,
+                    30,
+                    29,
+                    39,
+                    27,
+                    35
+                ],
+                "traffic": [
+                    50,
+                    40,
+                    60,
+                    56,
+                    72,
+                    63
+                ]
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+    "EncourWord": {
+        "data": [
+            {
+                "_id": "64fa8e9a652341bd643c5766",
+                "concent": "逻辑会把你从A带到B，想象力能带你去任何地方",
+                "origin": "《爱因斯坦：生活和宇宙》"
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+    "TimeTable": {
+        "data": [
+            {
+                "_id": "64fc7c43bd0220bf8c2ea780",
+                "data": [
+                    {
+                        "id": "001",
+                        "time": "2:30——4:00",
+                        "position": "明德楼机房B606",
+                        "name": "数据库原理与应用"
+                    },
+                    {
+                        "id": "002",
+                        "time": "2:30——4:00",
+                        "position": "明德楼机房B606",
+                        "name": "数据库原理与应用"
+                    },
+                    {
+                        "id": "003",
+                        "time": "2:30——4:00",
+                        "position": "明德楼机房B606",
+                        "name": "数据库原理与应用"
+                    },
+                    {
+                        "id": "004",
+                        "time": "2:30——4:00",
+                        "position": "明德楼机房B606",
+                        "name": "数据库原理与应用"
+                    }
+                ],
+                "week": "Monday"
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+    "Wjz": {
+        "data": [
+            {
+                "_id": "64d2ddf1466d416d30ba42fa",
+                "name": "wjz",
+                "sex": "男",
+                "passWord": 123,
+                "studentId": 123
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "permission": {
+                "read": false,
+                "create": false,
+                "update": false,
+                "delete": false
+            },
+            "properties": {
+                "_id": {
+                    "description": "ID，系统自动生成"
+                }
+            }
+        }
+    },
+    "opendb-app-list": {
+        "data": [
+            {
+                "_id": "6504924f466d416d304e3eed",
+                "appid": "__UNI__1DB4F13",
+                "name": "uni-admin",
+                "description": "admin 管理后台",
+                "create_date": 1694798415546
+            }
+        ]
+    },
+    "opendb-verify-codes": {
+        "data": [
+            {
+                "_id": "6505119c2139291ceb80e64b",
+                "device_uuid": "1694797427689451709",
+                "scene": "login-by-pwd",
+                "code": "pa2c",
+                "state": 1,
+                "ip": "111.62.26.8",
+                "created_date": 1694831004936,
+                "expired_date": 1694831184936
+            }
+        ]
+    },
+    "uni-id-log": {
+        "data": [
+            {
+                "_id": "65051096fe975fba5a339af6",
+                "appid": "__UNI__1DB4F13",
+                "device_id": "1694797427689451709",
+                "ip": "111.62.26.8",
+                "type": "login",
+                "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81",
+                "create_date": 1694830742902,
+                "username": "wjz",
+                "state": 0
+            }
+        ]
+    },
+    "uni-id-users": {
+        "data": [
+            {
+                "_id": "650511bf337a9f4db75b882a",
+                "username": "wjz",
+                "password": "9ac4602095c963190ddd530fc1a14a0d0b66a7a1",
+                "nickname": "wjz",
+                "role": [
+                    "admin"
+                ],
+                "register_env": {
+                    "appid": "__UNI__1DB4F13",
+                    "uni_platform": "web",
+                    "os_name": "windows",
+                    "app_name": "uni-admin",
+                    "app_version": "1.0.0",
+                    "app_version_code": "100",
+                    "channel": "1001",
+                    "client_ip": "111.62.26.8"
+                },
+                "register_date": 1694831039004,
+                "dcloud_appid": [
+                    "__UNI__1DB4F13"
+                ],
+                "last_login_date": 1694831045827,
+                "last_login_ip": "111.62.26.8",
+                "token": [
+                    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NTA1MTFiZjMzN2E5ZjRkYjc1Yjg4MmEiLCJyb2xlIjpbImFkbWluIl0sInBlcm1pc3Npb24iOltdLCJ1bmlJZFZlcnNpb24iOiIxLjAuMTYiLCJpYXQiOjE2OTQ4MzEwNDUsImV4cCI6MTY5NDgzODI0NX0.UUM0juk0XAJ5PktiUD7jjxcEsfAqq4_FL7-lzMI6Etc"
+                ],
+                "login_ip_limit": []
+            }
+        ]
+    },
+    "uni-stat-run-errors": {
+        "data": [
+            {
+                "_id": "6504ca26fe975fba5a2c7da1",
+                "mod": "stat",
+                "params": {
+                    "type": "clean",
+                    "dimension": "day",
+                    "config": {
+                        "type": "clean",
+                        "time": "* * 5 30"
+                    },
+                    "reset": true
+                },
+                "error": {},
+                "create_time": 1694812710021
+            }
+        ]
+    }
+}

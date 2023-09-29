@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/cost/cost",
+			"style": {
+				"navigationBarTitleText": "费用明细"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/library/library",
+			"style": {
+				"navigationBarTitleText": "图书馆"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#00c9a5",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/zhuye.png",
+				"selectedIconPath": "static/icon/zhuye-copy.png"
+			},
+			{
+				"text": "课表",
+				"pagePath": "pages/library/library",
+				"iconPath": "static/icon/shuji.png",
+				"selectedIconPath": "static/icon/shuji-copy-copy.png"
+			},
+			{
+				"text": "费用",
+				"pagePath": "pages/cost/cost",
+				"iconPath": "static/icon/qianbao.png",
+				"selectedIconPath": "static/icon/qianbao-copy.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/wode.png",
+				"selectedIconPath": "static/icon/wode-copy.png"
+			}
+		]
+	},
+	"subPackages": [
+		{
+			"root": "pagesMember",
+			"pages": [
+				{
+					"path": "SchoolCalendar",
+					"style": {
+						"navigationBarTitleText": "校历"
+					}
+				},
+				{
+					"path": "Profile",
+					"style": {
+						"navigationBarTitleText": "个人信息",
+						"navigationStyle": "custom",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "Alltimetable",
+					"style": {
+						"navigationBarTitleText": "我的课表"
+					}
+				},
+				{
+					"path": "Navigate",
+					"style": {
+						"navigationBarTitleText": "地图导航"
+					}
+				},
+				{
+					"path": "Credentials",
+					"style": {
+						"navigationBarTitleText": "考证助手"
+					}
+				}
+			]
+		}
+	],
+	//预下载规则
+	"preloadRule": {
+		"pages/my/my": {
+			"network": "all",
+			"packages": [
+				"pagesMember"
+			]
+		}
+	}
+}

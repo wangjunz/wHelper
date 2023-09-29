@@ -1,0 +1,7 @@
+{
+  "name": "Cost",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
